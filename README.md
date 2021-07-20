@@ -14,7 +14,7 @@ A seguinte página foi feita com HTML, CSS e JavaScript puro, e trás um layoult
 - Libra Esterlina (GBP)
 - Iene Japônes (JPY)
 
-[Captura de Tela 2021-07-19 às 22 27 06](https://user-images.githubusercontent.com/62302606/126248384-7623d87e-31e7-4f57-9eef-ca56c4314b08.png)
+![Captura de Tela 2021-07-19 às 22 27 06](https://user-images.githubusercontent.com/62302606/126255994-ad5e586a-a9ae-4a87-8af5-c70ec5e72888.png)
 
 Página:
 https://caio-vieira.github.io/Conversor-de-Moedas/
