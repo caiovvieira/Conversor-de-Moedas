@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" href="money-icon.png">
+    <title>Conversor de coins</title>
+</head>
+
+<body>
+
+    <div id="container">
+
+        <div id="convert">
+            <p>Deseja converter qual moeda?</p>
+
+            <select id="coin">
+                <option value="BRL">Real Brasileiro</option>
+                <option value="USD">Dólar Americano</option>
+                <option value="EUR">Euro</option>
+                <option value="GBP">Libra Esterlina</option>
+                <option value="JPY">Iene Japônes</option>
+            </select>
+
+            <input type="number" id="numberCoins" min="1" placeholder="insira um valor">
+        </div>
+
+        <div id="converted">
+            <p>Para qual moeda deseja converter o valor?</p>
+
+            <select id="coinCoverted" data-nome="">
+                <option value="BRL">Real Brasileiro</option>
+                <option value="USD">Dólar Americano</option>
+                <option value="EUR">Euro</option>
+                <option value="GBP">Libra Esterlina</option>
+                <option value="JPY">Iene Japônes</option>
+            </select>
+
+            <button onclick="currencyConversion()">Converter</button>
+        </div>
+
+        <h2 id="converter"></h2>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
