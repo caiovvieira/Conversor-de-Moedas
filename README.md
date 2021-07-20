@@ -12,7 +12,7 @@ A seguinte página foi feita com HTML, CSS e JavaScript puro, e trás um layoult
 - Dólar Americano (USD)
 - Euro (EUR)
 - Libra Esterlina (GBP)
-- Iene Japônes (JPY)
+- Iene Japônes (JPY
 
 ![Captura de Tela 2021-07-19 às 22 27 06](https://user-images.githubusercontent.com/62302606/126255994-ad5e586a-a9ae-4a87-8af5-c70ec5e72888.png)
 
