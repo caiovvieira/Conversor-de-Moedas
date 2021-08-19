@@ -1,6 +1,6 @@
 #  💰 Conversor de Moedas 💰
 
-Este projeto foi feito com o intuito de praticar os conhecimentos em consumo de API's com JavaScript, a API escolhida foi a de Cotações de Moedas do AwesomeAPI
+Este projeto foi feito com o intuito de praticar os meus conhecimentos em consumo de API's com JavaScript, a API escolhida foi a de Cotações de Moedas do AwesomeAPI
 
 link do site da API:  https://docs.awesomeapi.com.br/api-de-moedas
 
