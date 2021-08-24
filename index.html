@@ -24,7 +24,8 @@
                 <option value="JPY">Iene Japônes</option>
             </select>
 
-            <input type="number" id="numberCoins" min="1" placeholder="insira um valor">
+            <input oninput="if(value.length>10)value=value.slice(0,10)" type= "number" maxlength= "13" id="numberCoins">
+
         </div>
 
         <div id="converted">
@@ -41,7 +42,7 @@
             <button onclick="currencyConversion()">Converter</button>
         </div>
 
-        <h2 id="converter"></h2>
+        <p id="converter"></p>
 
     </div>
 
