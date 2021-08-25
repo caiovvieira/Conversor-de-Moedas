@@ -16,7 +16,7 @@
         <div id="convert">
             <p>Deseja converter qual moeda?</p>
 
-            <select id="coin">
+            <select id="coin"  data-nome="">
                 <option value="BRL">Real Brasileiro</option>
                 <option value="USD">Dólar Americano</option>
                 <option value="EUR">Euro</option>
@@ -24,14 +24,14 @@
                 <option value="JPY">Iene Japônes</option>
             </select>
 
-            <input oninput="if(value.length>10)value=value.slice(0,10)" type= "number" maxlength= "13" id="numberCoins">
+            <input id="numberCoins" oninput="if(value.length>10)value=value.slice(0,10)" type= "number"  min="1" maxlength= "13" placeholder="Insira um valor">
 
         </div>
 
         <div id="converted">
             <p>Para qual moeda deseja converter o valor?</p>
 
-            <select id="coinCoverted" data-nome="">
+            <select id="coinConverted" data-nome="">
                 <option value="BRL">Real Brasileiro</option>
                 <option value="USD">Dólar Americano</option>
                 <option value="EUR">Euro</option>
