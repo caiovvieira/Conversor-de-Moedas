@@ -17,6 +17,7 @@ function writeValues(numberCoins, getCoinValues) {
 
     let coinName = ""
     let coinConvertedName = ""
+    
     switch (coin.value) {
         case 'BRL':
             coinName = 'Real Brasileiro'
