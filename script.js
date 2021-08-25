@@ -13,7 +13,7 @@ async function conversion() {
     writeValues(numberCoins, getCoinValues)
 }
 
-async function writeValues(numberCoins, getCoinValues) {
+function writeValues(numberCoins, getCoinValues) {
 
     let coinName = ""
     let coinConvertedName = ""
